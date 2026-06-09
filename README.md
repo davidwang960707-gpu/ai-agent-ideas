@@ -75,6 +75,24 @@
 - `requirements/`：明确需求
 - `ideas/`：早期想法
 
+## 场景展示站
+
+这个仓库不只是文档库，也有一个面向传播和浏览的静态展示页：
+
+- `docs/`：GitHub Pages 静态站点
+- `docs/data/cards.json`：场景卡片数据
+- `docs/index.html`：王六的 AI Agent 需求观察室
+
+开启方式：
+
+1. 进入仓库 `Settings`
+2. 打开 `Pages`
+3. Source 选择 `Deploy from a branch`
+4. Branch 选择 `main`
+5. Folder 选择 `/docs`
+
+发布后，场景内容会以卡片、搜索、筛选和详情弹窗的形式展示出来。仓库负责共创，Pages 负责让更多人看见。
+
 ## 一个好场景长什么样
 
 不需要写得很正式，但最好说清楚这几件事：
