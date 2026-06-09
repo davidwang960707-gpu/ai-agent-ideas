@@ -79,9 +79,12 @@
 
 这个仓库不只是文档库，也有一个面向传播和浏览的静态展示页：
 
+- 展示站链接：https://davidwang960707-gpu.github.io/ai-agent-ideas/
 - `docs/`：GitHub Pages 静态站点
 - `docs/data/cards.json`：场景卡片数据
 - `docs/index.html`：王六的 AI Agent 需求观察室
+
+> 当前仓库如果保持 private，需要 GitHub 计划支持 private repository Pages 才能直接启用。公开仓库后，这个链接即可作为正式展示站使用。
 
 开启方式：
 
