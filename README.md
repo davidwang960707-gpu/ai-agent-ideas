@@ -16,6 +16,12 @@
     <img src="https://img.shields.io/badge/Needs-Co--create-22C55E?style=for-the-badge&logo=gitbook&logoColor=white" alt="Co-create" />
   </p>
 
+  <p>
+    <a href="https://davidwang960707-gpu.github.io/ai-agent-ideas/">
+      <img src="https://img.shields.io/badge/在线展示站-王六的%20AI%20Agent%20需求观察室-22D3EE?style=for-the-badge&logo=githubpages&logoColor=white" alt="在线展示站" />
+    </a>
+  </p>
+
 </div>
 
 ---
