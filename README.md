@@ -90,17 +90,6 @@
 - `docs/data/cards.json`：场景卡片数据
 - `docs/index.html`：王六的 AI Agent 需求观察室
 
-> 当前仓库如果保持 private，需要 GitHub 计划支持 private repository Pages 才能直接启用。公开仓库后，这个链接即可作为正式展示站使用。
-
-开启方式：
-
-1. 进入仓库 `Settings`
-2. 打开 `Pages`
-3. Source 选择 `Deploy from a branch`
-4. Branch 选择 `main`
-5. Folder 选择 `/docs`
-
-发布后，场景内容会以卡片、搜索、筛选和详情弹窗的形式展示出来。仓库负责共创，Pages 负责让更多人看见。
 
 ## 一个好场景长什么样
 
