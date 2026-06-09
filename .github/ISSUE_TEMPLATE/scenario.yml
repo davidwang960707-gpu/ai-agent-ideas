@@ -1,0 +1,71 @@
+name: 场景投稿
+description: 提交一个真实业务场景或工作流痛点
+title: "[Scenario] "
+labels: ["scenario", "needs-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢投喂场景。不用写得完美，真实最重要。
+  - type: input
+    id: summary
+    attributes:
+      label: 一句话简介
+      description: 用一句话描述这个场景。
+      placeholder: 例如：销售每周整理客户跟进记录太痛苦
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+      description: 谁在什么情况下遇到了这个问题？
+    validations:
+      required: true
+  - type: textarea
+    id: pain
+    attributes:
+      label: 当前痛点
+      description: 现在为什么麻烦、低效或容易出错？
+    validations:
+      required: true
+  - type: textarea
+    id: agent
+    attributes:
+      label: 理想中的 Agent
+      description: 你希望 Agent 怎么帮忙？
+    validations:
+      required: false
+  - type: textarea
+    id: input
+    attributes:
+      label: 输入
+      description: Agent 需要读取哪些信息、文件、系统或上下文？
+    validations:
+      required: false
+  - type: textarea
+    id: output
+    attributes:
+      label: 输出
+      description: Agent 应该产出什么结果？
+    validations:
+      required: false
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: 使用频率
+      options:
+        - 每天
+        - 每周
+        - 每月
+        - 偶尔
+        - 特定项目中
+    validations:
+      required: false
+  - type: textarea
+    id: value
+    attributes:
+      label: 价值
+      description: 如果解决了，会带来什么价值？
+    validations:
+      required: false

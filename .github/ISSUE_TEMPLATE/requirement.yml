@@ -1,0 +1,59 @@
+name: 需求投稿
+description: 提交一个明确的 AI Agent 功能需求
+title: "[Requirement] "
+labels: ["requirement", "needs-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        已经想清楚想让 Agent 做什么了？来，王六听听。
+  - type: input
+    id: goal
+    attributes:
+      label: 目标
+      description: 这个 Agent 要解决什么问题？
+      placeholder: 例如：自动把会议纪要整理成行动计划
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: 用户
+      description: 谁会使用它？
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: 输入
+      description: 它需要哪些资料、数据、文件或系统权限？
+    validations:
+      required: false
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: 核心能力
+      description: 它至少需要具备哪些能力？
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: 输出
+      description: 它最终应该交付什么结果？
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: 成功标准
+      description: 什么情况下算它做得好？
+    validations:
+      required: false
+  - type: textarea
+    id: boundary
+    attributes:
+      label: 边界
+      description: 什么事情不应该由它做？
+    validations:
+      required: false

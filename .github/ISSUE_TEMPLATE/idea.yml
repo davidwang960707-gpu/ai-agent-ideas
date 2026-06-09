@@ -1,0 +1,45 @@
+name: 点子投稿
+description: 提交一个还没完全想清楚的 Agent 脑洞
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        点子可以粗糙，可以离谱，但最好有一点真实痛感。
+  - type: input
+    id: idea
+    attributes:
+      label: 一句话点子
+      description: 你想到了什么？
+      placeholder: 例如：想要一个每天自动提醒行业变化的 Agent
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么想到它
+      description: 是被什么事情刺激到了？
+    validations:
+      required: false
+  - type: textarea
+    id: users
+    attributes:
+      label: 可能适合谁
+      description: 哪些人可能会需要？
+    validations:
+      required: false
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 它可能怎么工作
+      description: 如果让它跑起来，大概会是什么流程？
+    validations:
+      required: false
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: 最大不确定性
+      description: 你现在最不确定的地方是什么？
+    validations:
+      required: false
